@@ -59,7 +59,7 @@ font-size: 64px;
 color: #131313;
 margin-bottom: 30px;
 }
-.header-info p{
+.primary-info{
     font-size: 14px;
     color: gray;
     margin-bottom: 30px;
@@ -80,7 +80,38 @@ font-size: 20px;
 /*-----------
     Main
 ------------*/
+main{
+    margin: 80px 240px 0px 240px;
+}
 
+/* first section */
+.first-section{
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+.four-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+.images-1,.images-2,.images-3,.images-4{
+    width: 100%;
+}
+.four-images-info h1{
+    margin-bottom: 30px;
+}
+.grey{
+    color: grey;
+}
+.orange{
+    color: orange;
+}
+.bold{
+    font-weight: 900;
+    font-size: 50px;
+}
 /*--------------
     Footer
 ---------------*/
