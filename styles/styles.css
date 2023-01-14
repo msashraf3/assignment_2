@@ -130,6 +130,7 @@ footer{
     Responsive
 ------------------*/
 @media only screen and (max-width: 576px) {
+    /* header */
     header{
         padding: 10px;
     }
@@ -143,6 +144,20 @@ footer{
         flex-direction: column;
         gap: 10px;
     }
+    /* main */
+    main{
+        margin: 30px 10px;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .four-images{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .four-images-info{
+        text-align: center;
+    }
+    /* footer */
     footer{
         margin: 20px;
     }
