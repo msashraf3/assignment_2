@@ -96,7 +96,7 @@ main{
     column-gap: 24px;
     row-gap: 24px;
 }
-.images-1,.images-2,.images-3,.images-4{
+.images-1,.images-2,.images-3,.images-4 img{
     width: 100%;
 }
 .four-images-info h1{
