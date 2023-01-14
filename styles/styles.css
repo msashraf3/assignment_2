@@ -156,7 +156,9 @@ main {
     padding: 30px;
     margin-bottom: 20px;
 }
-
+.box-shadow-title{
+    margin-bottom: 15px;
+}
 .second-sec-img img {
     width: 708px;
     height: 982px;
