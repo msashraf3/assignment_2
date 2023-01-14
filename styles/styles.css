@@ -134,7 +134,7 @@ main {
 -------------------*/
 .second-section {
     display: flex;
-    gap: 54px;
+    gap: 100px;
     align-items: center;
 }
 
@@ -163,8 +163,11 @@ main {
 }
 
 .second-sec-img button {
-    width: 300px;
-    height: 180px;
+    position: absolute;
+width: 250px;
+height: 150px;
+left: 900px;
+top: 3080px;
     border: 0px;
     border-radius: 10px;
     font-weight: 700;
