@@ -1,16 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
+
 /*-------------
     Universal 
 --------------*/
-*{
+* {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 /*---------- 
     Header
 -----------*/
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
 
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+
+.primary-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.navbar-info ul {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar-info li{
+    list-style: none;
+}
+
+.navbar-info-list{
+    padding-left: 0px;
+}
+
+.navbar-info-list li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px
+}
+
+.header-info{
+    text-align: center;
+}
+.header-info-heading{
+    font-weight: 700;
+font-size: 64px;
+color: #131313;
+margin-bottom: 30px;
+}
+.header-info p{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.primary-button{
+    background-color: #FF900E;;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: 600;
+font-size: 20px;
+    color: white;
+    padding: 22px;
+    margin-bottom: 50px;
+}
+.header-img img{
+    width: 100%;
+}
 /*-----------
     Main
 ------------*/
@@ -22,3 +88,18 @@
 /*----------------
     Responsive
 ------------------*/
+@media only screen and (max-width: 576px) {
+    header{
+        padding: 10px;
+    }
+    .logo-nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .navbar-info ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
