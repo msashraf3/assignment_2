@@ -132,26 +132,51 @@ main {
 /*-------------------
     Second section
 -------------------*/
-.second-section{
+.second-section {
     display: flex;
     gap: 54px;
     align-items: center;
 }
-.border{
-    border-left: 4px solid #FF900E;;
-        height: 115px;
-        margin-bottom: 30px;
+
+.border {
+    border-left: 4px solid #FF900E;
+    ;
+    height: 115px;
+    margin-bottom: 30px;
 }
-.border h1{
+
+.border h1 {
     padding-left: 20px;
 }
-.box-shadow-info{
+
+.box-shadow-info {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.089);
     border-radius: 10px;
     padding: 30px;
     margin-bottom: 20px;
 }
+
+.second-sec-img img {
+    width: 708px;
+    height: 982px;
+}
+
+.second-sec-img button {
+    width: 300px;
+    height: 180px;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF900E;
+}
+.small{
+    font-size: 20px;
+}
+
 /*--------------
     Footer
 ---------------*/
@@ -208,7 +233,18 @@ footer {
     .four-images-info {
         text-align: center;
     }
-
+    /* second section */
+    .second-section{
+        flex-direction: column-reverse;
+        mar
+    }
+    .second-sec-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .border{
+        height: 170px;
+    }
     /* footer */
     footer {
         margin: 20px;
