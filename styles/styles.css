@@ -209,6 +209,22 @@ top: 3080px;
     transition: transform 2s;
     transform: rotate(360deg);
 }
+.fourth-sec-title-info{
+    text-align: center;
+}
+.fourth-sec-title-info h1{
+    margin-bottom: 25px;
+}
+.fourth-sec-title-info p{
+    margin-bottom: 50px;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-color{
+    filter: grayscale(10);
+}
 /*--------------
     Footer
 ---------------*/
@@ -288,6 +304,14 @@ footer {
     .animation{
         flex-direction: column;
         gap: 50px;
+    }
+    /*------------------
+        fourth-section
+    --------------------*/
+    .logos{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
     }
     /* footer */
     footer {
